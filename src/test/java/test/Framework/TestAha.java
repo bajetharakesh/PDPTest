@@ -2,6 +2,7 @@ package test.Framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ public class TestAha extends Common {
 
     @Parameters({"urlaha"})
     @Test
-    public void LaunchSite(String urlaha) {
+    public void LaunchSite(@Optional String urlaha) {
         help.launchUrl(urlaha);
         help.checkPageLoad();
         List<WebElement> allProduct = driver.findElements(By.xpath(prop.getLocator("PLPContainerAha")));

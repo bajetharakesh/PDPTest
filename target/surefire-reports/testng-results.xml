@@ -2,20 +2,20 @@
 <testng-results ignored="10" total="16" passed="0" failed="5" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-14T01:04:36 EDT" name="Command line suite" finished-at="2020-05-14T01:05:08 EDT" duration-ms="31597">
+  <suite started-at="2020-05-14T02:07:49 EDT" name="Command line suite" finished-at="2020-05-14T02:08:34 EDT" duration-ms="45457">
     <groups>
     </groups>
-    <test started-at="2020-05-14T01:04:36 EDT" name="Command line test" finished-at="2020-05-14T01:05:08 EDT" duration-ms="31597">
+    <test started-at="2020-05-14T02:07:49 EDT" name="Command line test" finished-at="2020-05-14T02:08:34 EDT" duration-ms="45457">
       <class name="test.Framework.TestAha">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T01:04:36 EDT" name="beforeSuite" finished-at="2020-05-14T01:04:36 EDT" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T02:07:48 EDT" name="beforeSuite" finished-at="2020-05-14T02:07:49 EDT" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T01:04:36 EDT" name="setup" finished-at="2020-05-14T01:04:42 EDT" duration-ms="5267" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T02:07:49 EDT" name="setup" finished-at="2020-05-14T02:07:57 EDT" duration-ms="8313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T01:04:42 EDT" name="LaunchSite" finished-at="2020-05-14T01:04:42 EDT" duration-ms="0" status="FAIL">
+        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T02:07:57 EDT" name="LaunchSite" finished-at="2020-05-14T02:07:57 EDT" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -69,21 +69,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchSite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T01:04:42 EDT" name="tearDown" finished-at="2020-05-14T01:04:43 EDT" duration-ms="1143" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T02:07:57 EDT" name="tearDown" finished-at="2020-05-14T02:07:58 EDT" duration-ms="1266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T01:05:08 EDT" name="endReport" finished-at="2020-05-14T01:05:08 EDT" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:test.Framework.TestAha@3d0f8e03]" started-at="2020-05-14T02:08:34 EDT" name="endReport" finished-at="2020-05-14T02:08:35 EDT" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- test.Framework.TestAha -->
       <class name="test.Framework.TestPowerade">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestPowerade@17baae6e]" started-at="2020-05-14T01:05:02 EDT" name="setup" finished-at="2020-05-14T01:05:07 EDT" duration-ms="5273" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestPowerade@17baae6e]" started-at="2020-05-14T02:08:27 EDT" name="setup" finished-at="2020-05-14T02:08:33 EDT" duration-ms="6262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestPowerade@17baae6e]" started-at="2020-05-14T01:05:07 EDT" name="LaunchSite" finished-at="2020-05-14T01:05:07 EDT" duration-ms="0" status="FAIL">
+        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestPowerade@17baae6e]" started-at="2020-05-14T02:08:33 EDT" name="LaunchSite" finished-at="2020-05-14T02:08:33 EDT" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -137,17 +137,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchSite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestPowerade@17baae6e]" started-at="2020-05-14T01:05:07 EDT" name="tearDown" finished-at="2020-05-14T01:05:08 EDT" duration-ms="686" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestPowerade@17baae6e]" started-at="2020-05-14T02:08:33 EDT" name="tearDown" finished-at="2020-05-14T02:08:34 EDT" duration-ms="1177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.Framework.TestPowerade -->
       <class name="test.Framework.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestLogin@2698dc7]" started-at="2020-05-14T01:04:51 EDT" name="setup" finished-at="2020-05-14T01:04:56 EDT" duration-ms="5261" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestLogin@2698dc7]" started-at="2020-05-14T02:08:16 EDT" name="setup" finished-at="2020-05-14T02:08:19 EDT" duration-ms="3909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestLogin@2698dc7]" started-at="2020-05-14T01:04:56 EDT" name="LaunchSite" finished-at="2020-05-14T01:04:56 EDT" duration-ms="0" status="FAIL">
+        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestLogin@2698dc7]" started-at="2020-05-14T02:08:19 EDT" name="LaunchSite" finished-at="2020-05-14T02:08:19 EDT" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -201,17 +201,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchSite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestLogin@2698dc7]" started-at="2020-05-14T01:04:56 EDT" name="tearDown" finished-at="2020-05-14T01:04:57 EDT" duration-ms="696" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestLogin@2698dc7]" started-at="2020-05-14T02:08:19 EDT" name="tearDown" finished-at="2020-05-14T02:08:21 EDT" duration-ms="1229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.Framework.TestLogin -->
       <class name="test.Framework.TestCoke">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T01:04:43 EDT" name="setup" finished-at="2020-05-14T01:04:46 EDT" duration-ms="3472" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T02:07:58 EDT" name="setup" finished-at="2020-05-14T02:08:06 EDT" duration-ms="7306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="intiateTest()[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T01:04:46 EDT" name="intiateTest" finished-at="2020-05-14T01:04:46 EDT" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="intiateTest()[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T02:08:06 EDT" name="intiateTest" finished-at="2020-05-14T02:08:06 EDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -264,7 +264,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intiateTest -->
-        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T01:04:46 EDT" name="LaunchSite" finished-at="2020-05-14T01:04:46 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T02:08:06 EDT" name="LaunchSite" finished-at="2020-05-14T02:08:06 EDT" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -317,21 +317,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchSite -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T01:04:46 EDT" name="getResult" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1589432686691" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T02:08:06 EDT" name="getResult" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1589436486041" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T01:04:46 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1589432686692" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestCoke@6366ebe0]" started-at="2020-05-14T02:08:06 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1589436486042" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.Framework.TestCoke -->
       <class name="test.Framework.TestPeaceTea">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestPeaceTea@43d7741f]" started-at="2020-05-14T01:04:57 EDT" name="setup" finished-at="2020-05-14T01:05:01 EDT" duration-ms="4098" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestPeaceTea@43d7741f]" started-at="2020-05-14T02:08:21 EDT" name="setup" finished-at="2020-05-14T02:08:26 EDT" duration-ms="5143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestPeaceTea@43d7741f]" started-at="2020-05-14T01:05:01 EDT" name="LaunchSite" finished-at="2020-05-14T01:05:01 EDT" duration-ms="0" status="FAIL">
+        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestPeaceTea@43d7741f]" started-at="2020-05-14T02:08:26 EDT" name="LaunchSite" finished-at="2020-05-14T02:08:26 EDT" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -385,17 +385,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchSite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestPeaceTea@43d7741f]" started-at="2020-05-14T01:05:01 EDT" name="tearDown" finished-at="2020-05-14T01:05:02 EDT" duration-ms="721" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestPeaceTea@43d7741f]" started-at="2020-05-14T02:08:26 EDT" name="tearDown" finished-at="2020-05-14T02:08:27 EDT" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.Framework.TestPeaceTea -->
       <class name="test.Framework.TestFresca">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestFresca@44f75083]" started-at="2020-05-14T01:04:46 EDT" name="setup" finished-at="2020-05-14T01:04:50 EDT" duration-ms="4230" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Framework.TestFresca@44f75083]" started-at="2020-05-14T02:08:06 EDT" name="setup" finished-at="2020-05-14T02:08:15 EDT" duration-ms="9129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestFresca@44f75083]" started-at="2020-05-14T01:04:50 EDT" name="LaunchSite" finished-at="2020-05-14T01:04:50 EDT" duration-ms="0" status="FAIL">
+        <test-method signature="LaunchSite(java.lang.String)[pri:0, instance:test.Framework.TestFresca@44f75083]" started-at="2020-05-14T02:08:15 EDT" name="LaunchSite" finished-at="2020-05-14T02:08:15 EDT" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -449,7 +449,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchSite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestFresca@44f75083]" started-at="2020-05-14T01:04:50 EDT" name="tearDown" finished-at="2020-05-14T01:04:51 EDT" duration-ms="689" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Framework.TestFresca@44f75083]" started-at="2020-05-14T02:08:15 EDT" name="tearDown" finished-at="2020-05-14T02:08:16 EDT" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

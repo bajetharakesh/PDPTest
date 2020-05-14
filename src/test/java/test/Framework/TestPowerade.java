@@ -2,6 +2,7 @@ package test.Framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ public class TestPowerade extends Common {
 
     @Parameters({"urlpowerade"})
     @Test
-    public void LaunchSite(String urlpowerade) {
+    public void LaunchSite(@Optional String urlpowerade) {
         help.launchUrl(urlpowerade);
         help.checkPageLoad();
         List<WebElement> allProduct = driver.findElements(By.xpath(prop.getLocator("PLPContainer")));

@@ -12,7 +12,6 @@
 <!--		<parameter name="urlpeacetea" value="https://www.peacetea.com/products"/>-->
 		<classes>
 			<class name="test.Framework.TestCoke"/>
-
 			<!--  class name="test.Framework.ExtentsReportsClass"-->
 		</classes>
 	</test> 
