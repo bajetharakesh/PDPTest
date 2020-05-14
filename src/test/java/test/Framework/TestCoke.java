@@ -2,7 +2,6 @@ package test.Framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -11,7 +10,7 @@ import java.util.List;
 public class TestCoke extends Common {
     @Parameters({"urlcoke"})
     @Test
-    public void LaunchSite(@Optional String urlcoke) {
+    public void LaunchSite(String urlcoke) {
         help.launchUrl(urlcoke);
         help.checkPageLoad();
         List<WebElement> allProduct = driver.findElements(By.xpath(prop.getLocator("PLPContainer")));
